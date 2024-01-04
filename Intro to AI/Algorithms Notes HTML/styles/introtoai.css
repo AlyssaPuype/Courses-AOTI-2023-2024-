@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace, serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background: rgb(226, 226, 226); */
+    background-image: url(../img/365be64d6a0542fb1434dd.webp);
+    background-position: center;
+}
+
+header {
+    color: white;
+    display: flex;
+    padding: 20px;
+    margin: left 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+header .subtitle {
+    font-weight: 400;
+}
+
+header .links {
+    display: flex;
+    gap: 30px;
+    align-items: baseline;
+}
+
+header .links a {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: white;
+}
+
+header .links a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+header .links .author {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    margin-left: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background: rgba(226, 226, 226, 0.178);
+    padding: 20px;
+}
+
+nav .navtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+nav .navblock {
+    margin-bottom: 10px;
+}
+
+nav .navblock a button {
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    background: rgba(233, 233, 233, 0.258);
+    border: none;
+}
+
+nav .navblock a button:hover {
+    color: white;
+    background: rgb(58, 58, 58);
+}
+
+main {
+    margin-left: 15px;
+    margin-right: 20px;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 85vh;
+    /* Set the height based on your design */
+    overflow-y: auto;
+    /* Enable scrolling for the main content */
+    border-radius: 40px;
+    scroll-behavior: smooth;
+}
+
+.chapter {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.chapter .subchapter {
+    padding: 20px;
+}
+
+.chapter .subchapter .topicTitle {
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.chapter .subchapter .topiccontent {
+    text-align: justify;
+}
+
+.chapter .subchapter .topiccontent .topicSummary {
+    display: flex;
+    border-radius: 18px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background: rgb(223, 223, 223);
+}
+
+.chapter .subchapter .topiccontent .topicSummary i {
+    padding-right: 30px;
+    font-size: 30px;
+}
+
+.chapter .subchapter .topiccontent .subtopic {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.chapter .subchapter .topiccontent .subtopic .subtopicTitle {
+
+    font-size: 18px;
+    margin-bottom: 10px;
+}

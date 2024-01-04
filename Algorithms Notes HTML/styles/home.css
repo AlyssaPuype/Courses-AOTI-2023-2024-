@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace, serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(180, 148, 178);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+.container {
+    left: 50;
+    top: 50;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.container .courseblock {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 180px;
+    border-radius: 30px;
+}
+
+.container .courseblock .coursetitle {
+    margin-bottom: 25px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.container .courseblock .checklist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .courseblock a {
+
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(87, 7, 90);
+    text-align: center;
+    font-size: 18px;
+}
+
+.container .courseblock a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(87, 7, 90);
+    text-align: center;
+    font-size: 18px;
+
+}

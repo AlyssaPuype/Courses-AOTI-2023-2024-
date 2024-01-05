@@ -121,6 +121,11 @@ main {
     font-size: 14px;
 }
 
+.chapter .chapterTitle {
+    font-size: 28px;
+    padding-left: 20px;
+}
+
 .chapter .subchapter {
     padding: 20px;
 }
@@ -155,7 +160,16 @@ main {
 }
 
 .chapter .subchapter .topiccontent .subtopic .subtopicTitle {
-
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+.chapter .subchapter .topiccontent .subtopic .subtopicContent {
+    background: red;
+
+}
+
+.chapter .subchapter .topiccontent .subtopic .subtopicContent pre {
+    background: blue;
+
 }

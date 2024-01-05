@@ -101,42 +101,36 @@
                         </div>
                         <div class="subtopic">
                             <h5 class="subtopicTitle">Breadth-first Search</h5>
-                            <p class="subtopicContent"> Fusce ac egestas nibh. Maecenas et elit tortor. Pellentesque sem
-                                turpis, lobortis vel pulvinar
-                                ut,
-                                malesuada nec justo. Vivamus iaculis justo eu augue placerat, in egestas sapien
-                                volutpat.
-                                Morbi
-                                sit
-                                amet sapien faucibus ipsum interdum aliquam. Quisque vel libero eu dolor consectetur
-                                volutpat eu
-                                et
-                                tellus. Nulla facilisi. Proin pharetra dolor arcu, in vulputate magna faucibus sit amet.
-                                Maecenas
-                                venenatis purus nec elit auctor rutrum. Phasellus sed convallis lorem, eget consequat
-                                leo.
-                                Duis
-                                magna mi, dictum quis lectus dignissim, fermentum malesuada odio.</p>
-
+                            <!-- <div class="subtopicContent">
+                                <pre>
+                                    1. QUEUE , path only containing root
+                                    2. WHILE (QUEUE is not empty AND goal is not reached)
+                                        - remove the first path from the QUEUE
+                                        - create new paths (to all children)
+                                        - reject the new paths with loops
+                                        - add the new paths to the back of the QUEUE
+                                    3. IF (goal reached)
+                                    - THEN SUCCESS
+                                    - ELSE FAILURE
+                                </pre>
+                                <div> -->
                         </div>
                         <div class="subtopic">
                             <h5 class="subtopicTitle">Depth-first Search</h5>
-                            <p class="subtopicContent"> Fusce ac egestas nibh. Maecenas et elit tortor. Pellentesque sem
-                                turpis, lobortis vel pulvinar
-                                ut,
-                                malesuada nec justo. Vivamus iaculis justo eu augue placerat, in egestas sapien
-                                volutpat.
-                                Morbi
-                                sit
-                                amet sapien faucibus ipsum interdum aliquam. Quisque vel libero eu dolor consectetur
-                                volutpat eu
-                                et
-                                tellus. Nulla facilisi. Proin pharetra dolor arcu, in vulputate magna faucibus sit amet.
-                                Maecenas
-                                venenatis purus nec elit auctor rutrum. Phasellus sed convallis lorem, eget consequat
-                                leo.
-                                Duis
-                                magna mi, dictum quis lectus dignissim, fermentum malesuada odio.</p>
+                            <!-- <div class="subtopicContent">
+                                        <pre>
+                                    1. QUEUE , path only containing the root
+                                    2. WHILE (QUEUE is not empty AND goals is not reached)
+                                        - remove the first path from the QUEUE
+                                        - create new paths (to all children)
+                                        - reject the new paths with loops
+                                        - add the new paths to the front of the QUEUE
+                                    3. IF (goal reached)
+                                        - THEN SUCCESS
+                                        - ELSE FAILURE
+            
+                                    </pre>
+                                        <div /> -->
 
                         </div>
                     </div>
@@ -248,13 +242,16 @@
                 <p>Inline equation: \(a^2 + b^2 = c^2\)</p>
 
                 <pre>
-                    <code class="lang-js">
-                    function helloWorld() {
-                      console.log("Hello, world!");
-                    }
-                    </code></pre>
-
+                <code class="lang-js">
+                function helloWorld() {
+                  console.log("Hello, world!");
+                }
+                </code></pre>
             </section>
+
+
+
+
         </main>
     </div>
 

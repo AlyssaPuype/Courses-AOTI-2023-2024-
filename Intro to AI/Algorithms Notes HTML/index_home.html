@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/home.css">
     <script src="scripts/introtoai.js" defer></script>
+    <!--FONTS-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,400;0,700;0,800;1,100;1,200;1,400;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+    </style>
+
+    <script src="home.js"></script>
 
     <title>Document</title>
 </head>
@@ -16,33 +22,38 @@
         <h1>COURSES 2024</h1>
     </header>
 
-    <div class="container">
+    <div class="search-container">
+        <input type="text" id="searchInput" oninput="filterGrid()" placeholder="Search...">
+    </div>
+
+
+    <div class="container" id="sortable-grid">
 
         <section class="courseblock">
-            <a class="coursetitle" href="intro_to_ai.html" target="_blank">Intro to AI</a>
-            <div class="checklist">
-                <label>
-                    <input type="checkbox" id="myCheckbox"> To Do
-                </label>
-                <label>
-                    <input type="checkbox" id="myCheckbox"> In progress
-                </label>
-                <label>
-                    <input type="checkbox" id="myCheckbox"> Completed
-                </label>
-            </div>
+            <a class="coursetitle" href="intro_to_ai.html">Intro to AI</a>
         </section>
         <section class="courseblock">
-            <a class="coursetitle" href="#" target="_blank">Upcoming</a>
+            <a class="coursetitle" href="#">Intro to Linux</a>
         </section>
         <section class="courseblock">
-            <a class="coursetitle" href="#" target="_blank">Upcoming</a>
+            <a class="coursetitle" href="#">Fundamentals of programming 2</a>
         </section>
         <section class="courseblock">
-            <a class="coursetitle" href="#" target="_blank">Upcoming</a>
+            <a class="coursetitle" href="#">Operating Systems</a>
+        </section>
+        <section class="courseblock">
+            <a class="coursetitle" href="#">Computer Networking</a>
+        </section>
+        <section class="courseblock">
+            <a class="coursetitle" href="#">Web Development</a>
+        </section>
+        <section class="courseblock">
+            <a class="coursetitle" href="#">Analysis and Design</a>
         </section>
 
     </div>
+
+
 
 </body>
 

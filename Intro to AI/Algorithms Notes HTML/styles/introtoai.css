@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: monospace, serif;
+
 }
 
 html {
@@ -12,6 +12,7 @@ body {
     /* background: rgb(226, 226, 226); */
     background-image: url(../img/365be64d6a0542fb1434dd.webp);
     background-position: center;
+    font-family: 'roboto', serif;
 }
 
 header {
@@ -21,6 +22,16 @@ header {
     margin: left 20px;
     margin-right: 20px;
     justify-content: space-between;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+header h1 a:visited {
+    text-decoration: none;
+    color: white;
 }
 
 header .subtitle {
@@ -55,7 +66,6 @@ header .links .author {
 }
 
 nav {
-    margin-left: 10px;
     position: sticky;
     top: 0;
     left: 0;
@@ -77,6 +87,8 @@ nav .navblock {
 
 nav .navblock a button {
     border-radius: 12px;
+    height: 50px;
+    width: 100%;
     padding: 10px;
     text-align: center;
     background: rgba(233, 233, 233, 0.258);
@@ -89,16 +101,13 @@ nav .navblock a button:hover {
 }
 
 main {
-    margin-left: 15px;
-    margin-right: 20px;
+    margin: 0 30px;
     position: sticky;
     top: 0;
     width: 100vw;
-    height: 85vh;
     /* Set the height based on your design */
     overflow-y: auto;
     /* Enable scrolling for the main content */
-    border-radius: 40px;
     scroll-behavior: smooth;
 }
 
@@ -127,6 +136,7 @@ main {
 
 .chapter .subchapter .topiccontent .topicSummary {
     display: flex;
+    align-items: center;
     border-radius: 18px;
     margin-bottom: 30px;
     padding: 30px;
@@ -134,7 +144,7 @@ main {
 }
 
 .chapter .subchapter .topiccontent .topicSummary i {
-    padding-right: 30px;
+    padding-right: 20px;
     font-size: 30px;
 }
 

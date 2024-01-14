@@ -85,11 +85,167 @@
                 <a href="#optimal"><button type="button">Optimal Search Algorithms</button></a>
                 <p class="blocksummary">
             </div>
-
         </nav>
 
         <main>
+            <!--============================================================-->
+            <!--=========================MACHINE LEARNING===================-->
+            <!--============================================================-->
             <section class="chapter">
+                <h2 class="chapterTitle">Machine Learning</h2>
+                <article class="subchapter">
+                    <h3 class="topicTitle" id="blind">Intro</h3>
+                    <div class="topiccontent">
+                        <div class="topicSummary">
+                            <i class="fa-solid fa-book-atlas" style="color: #1396e8;"></i>
+                            <p class="topicSummaryContent">Machine learning is a subfield or Artificial Intelligence
+                                that focuses on the development of
+                                algorithms and models to improve their performance on tasks through learning from data.
+                                The system learns from examples or experiences
+                                and make predictions or decisions based on the learned knowledge.
+                            </p>
+                        </div>
+                </article>
+                <article class="subchapter">
+                    <h3 class="topicTitle" id="blind">Tasks</h3>
+                    <div class="topiccontent">
+                        <div class="topicSummary">
+                            <i class="fa-solid fa-book-atlas" style="color: #1396e8;"></i>
+                            <p class="topicSummaryContent"> We can divide Machine Learning by 4 major tasks
+                            </p>
+                        </div>
+                        <div class="subtopic">
+                            <h5 class="subtopicTitle">Prediction</h5>
+                            <div class="subtopicContent">
+                                <p>
+                                    We look at data where we already know the outcome. The outcome is called 'Lable', so
+                                    we speak of 'labled data'.
+                                    When we see new data, we then want to make a <u>prediction</u> and relate the data
+                                    to one of the known lables. <br> This is an example of supervised learning.
+                                </p>
+                                <div>
+                                </div>
+                        <div class="subtopic">
+                            <h5 class="subtopicTitle">Clustering</h5>
+                            <div class="subtopicContent">
+                                <p>
+                                    We want to group different instances of a datacollection, for example based on similarities.<br> This is an example of unsupervised learning.
+                                </p>
+                                <div>
+                                </div>
+                        <div class="subtopic">
+                            <h5 class="subtopicTitle">Association rule mining</h5>
+                            <div class="subtopicContent">
+                                <p>
+                                    Association rule mining is used to recognize patterns in data. <br> This is an example of unsupervised learning.
+                                </p>
+                                <div>
+                                </div>
+                        <div class="subtopic">
+                            <h5 class="subtopicTitle">Anomaly detection</h5>
+                            <div class="subtopicContent">
+                                <p>
+                                    Detecting fraud for example, used in bank transactions. <br> This is an example of unsupervised learning.
+                                </p>
+                                <div>
+                                </div>
+                    </div>
+                </article>
+                <article class="subchapter">
+                    <h3 class="topicTitle" id="heuristic">Types</h3>
+                    <div class="topiccontent">
+                        <div class="topicSummary">
+                            <i class="fa-solid fa-book-atlas" style="color: #1396e8;"></i>
+                            <p class="topicSummaryContent"> We can divide Machine learning also by its type. Here we discuss the 3 important ones.</p>
+                        </div>
+                        <div class="subtopic">
+                            <h5 class="subtopicTitle">Supervised learning</h5>
+                            <p class="subtopicContent"> 
+                                This inclused algorithms that use <u>labled data.</u> Two applications are <b>Regression</b> and <b>Classification</b>.
+                                <br> Regression: data is numeric (nominal: no order, ordinal: with order).
+                                <br> Classification: data is categorical.
+                            </p>
+                        </div>
+                        <div class="subtopic">
+                            <h5 class="subtopicTitle">Unsupervised learning</h5>
+                            <p class="subtopicContent"> 
+                                These algorithms use <u>unlabled data</u> Most important application is <b>Clustering</b>.
+                            </p>
+                        </div>
+                        <div class="subtopic">
+                            <h5 class="subtopicTitle">Reinforcement learning</h5>
+                            <p class="subtopicContent"> 
+                                The algorithms collect data through simulations where he interacts with the environment and receive feedback by getting either rewards or penalties.
+                            </p>
+                        </div>
+                        <div class="subtopic">
+                            <h5 class="subtopicTitle">Summary of the Machine Learning types</h5>
+                            <p class="subtopicContent"> 
+                                <img class="subtopicimage" src="img/machine-learning-types-infographics_1.png"
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="subchapter">
+                    <h3 class="topicTitle" id="optimal">Reinforcement learning</h3>
+                    <div class="topiccontent">
+                        <div class="topicSummary">
+                            <i class="fa-solid fa-book-atlas" style="color: #1396e8;"></i>
+                            <p class="topicSummaryContent">
+                                Finds the best solution in terms of some criteria (e.g., minimum cost, shortest
+                                path).
+                                An algorithm is optimal if it guarantees finding the most cost-effective solution.</p>
+                        </div>
+                        <div class="subtopic">
+                            <h5 class="subtopicTitle">Uniform cost algorithm</h5>
+                            <p class="subtopicContent">
+                            <pre>
+1.QUEUE <- path only containing the root;
+2.WHILE (QUEUE is not empty AND goal is not reached)
+    - remove the first path from the QUEUE 
+    -
+
+                                </pre>
+                            </p>
+
+                        </div>
+                        <div class="subtopic">
+                            <h5 class="subtopicTitle">Depth-first Search</h5>
+                            <p class="subtopicContent"> Fusce ac egestas nibh. Maecenas et elit tortor. Pellentesque sem
+                                turpis, lobortis vel pulvinar
+                                ut,
+                                malesuada nec justo. Vivamus iaculis justo eu augue placerat, in egestas sapien
+                                volutpat.
+                                Morbi
+                                sit
+                                amet sapien faucibus ipsum interdum aliquam. Quisque vel libero eu dolor consectetur
+                                volutpat eu
+                                et
+                                tellus. Nulla facilisi. Proin pharetra dolor arcu, in vulputate magna faucibus sit amet.
+                                Maecenas
+                                venenatis purus nec elit auctor rutrum. Phasellus sed convallis lorem, eget consequat
+                                leo.
+                                Duis
+                                magna mi, dictum quis lectus dignissim, fermentum malesuada odio.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <p>Inline equation: \(a^2 + b^2 = c^2\)</p>
+
+                <pre>
+                <code class="lang-js">
+                function helloWorld() {
+                  console.log("Hello, world!");
+                }
+                </code></pre>
+            </section>
+
+            <!--============================================================-->
+            <!--=========================ALGORITHMS=========================-->
+            <!--============================================================-->
+            <section class="chapter">
+                <h2 class="chapterTitle">Algorithms</h2>
                 <article class="subchapter">
                     <h3 class="topicTitle" id="blind">Blind Search Algorithms</h3>
                     <div class="topiccontent">
@@ -198,23 +354,16 @@
                                 An algorithm is optimal if it guarantees finding the most cost-effective solution.</p>
                         </div>
                         <div class="subtopic">
-                            <h5 class="subtopicTitle">Breadth-first Search</h5>
-                            <p class="subtopicContent"> Fusce ac egestas nibh. Maecenas et elit tortor. Pellentesque sem
-                                turpis, lobortis vel pulvinar
-                                ut,
-                                malesuada nec justo. Vivamus iaculis justo eu augue placerat, in egestas sapien
-                                volutpat.
-                                Morbi
-                                sit
-                                amet sapien faucibus ipsum interdum aliquam. Quisque vel libero eu dolor consectetur
-                                volutpat eu
-                                et
-                                tellus. Nulla facilisi. Proin pharetra dolor arcu, in vulputate magna faucibus sit amet.
-                                Maecenas
-                                venenatis purus nec elit auctor rutrum. Phasellus sed convallis lorem, eget consequat
-                                leo.
-                                Duis
-                                magna mi, dictum quis lectus dignissim, fermentum malesuada odio.</p>
+                            <h5 class="subtopicTitle">Uniform cost algorithm</h5>
+                            <p class="subtopicContent">
+                            <pre>
+1.QUEUE <- path only containing the root;
+2.WHILE (QUEUE is not empty AND goal is not reached)
+    - remove the first path from the QUEUE 
+    -
+
+                                </pre>
+                            </p>
 
                         </div>
                         <div class="subtopic">
@@ -248,9 +397,6 @@
                 }
                 </code></pre>
             </section>
-
-
-
 
         </main>
     </div>
